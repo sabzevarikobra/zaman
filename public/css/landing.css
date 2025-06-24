@@ -1,0 +1,116 @@
+body {
+    font-family: 'Vazir', Tahoma, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+.site-header, .site-footer {
+    background: #1a237e;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.site-header h2, .site-footer p {
+    margin: 0;
+    text-align: center;
+}
+
+.site-header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+.site-header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.site-header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.site-header nav ul li a:hover {
+    color: #fbc02d;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px #0001;
+}
+
+.intro h1 {
+    color: #1a237e;
+    font-size: 2.2em;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.map-section {
+    margin-top: 40px;
+}
+
+.map-section h2 {
+    color: #3949ab;
+    margin-bottom: 10px;
+}
+
+.map-container {
+    width: 100%;
+    height: 350px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 6px #0001;
+}
+
+.site-footer {
+    margin-top: 50px;
+    font-size: 1em;
+}
+.header-buttons {
+    display: inline-block;
+    float: left;
+    margin-top: -40px;
+}
+.header-buttons .btn {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 8px 18px;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+.header-buttons .btn-primary {
+    background: #3949ab;
+    color: #fff;
+    border: none;
+}
+.header-buttons .btn-primary:hover {
+    background: #1a237e;
+}
+.header-buttons .btn-outline {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.header-buttons .btn-outline:hover {
+    background: #fff;
+    color: #3949ab;
+}
